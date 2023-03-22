@@ -36,8 +36,8 @@ jobs:
           file: ./tensorflow-gpu-base/Dockerfile
           push: true
           tags: |
-            harvardat/tensorflow-gpu-base:${{ env.SHORT_SHA }}
-            harvardat/tensorflow-gpu-base:latest
+            huitacademictechnology/tensorflow-gpu-base:${{ env.SHORT_SHA }}
+            huitacademictechnology/tensorflow-gpu-base:latest
       -
         name: Image digest                  
         run: echo ${{ steps.docker_build.outputs.digest }}
