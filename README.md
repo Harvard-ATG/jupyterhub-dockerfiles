@@ -7,7 +7,7 @@ This repository contains Dockerfiles for Jupyterhub.
 **To use this image:**
 
 ```
-$ docker pull harvardat/tensorflow-gpu-base:latest
+$ docker pull huitacademictechnology/tensorflow-gpu-base:latest
 ```
 
 **Description:**
@@ -20,4 +20,4 @@ See the official [gpu.Dockerfile](https://raw.githubusercontent.com/tensorflow/t
 
 ## Automated Builds
 
-Github Actions are setup to automatically build and push images to https://hub.docker.com/u/harvardat. The asusmption is that there is no sensitive information being added to these images.
+Github Actions are setup to automatically build and push images to https://hub.docker.com/u/huitacademictechnology. The asusmption is that there is no sensitive information being added to these images.
